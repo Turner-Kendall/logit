@@ -1,5 +1,8 @@
 package main
 
+// This example code is meant to be a companion for the article here:
+// https://turnerkendall.com/article/systemd
+
 import (
 	"context"
 	"fmt"
