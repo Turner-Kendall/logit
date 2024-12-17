@@ -45,8 +45,7 @@ func setupLogFile() error {
 	slogger.LogAttrs(
 		context.Background(),
 		slog.LevelInfo,
-		"logit...",
-		slog.String("Hey", "Now"),
+		"logit",
 		slog.String("path", cwd),
 		slog.Int("status", 200),
 	)
